@@ -1,0 +1,9 @@
+apt-get install playonlinux
+useradd -m playonlinuxuser 
+gksu -u playonlinuxuser 
+gksu -u playonlinuxuser playonlinux
+
+https://www.youtube.com/watch?v=BMbfdHikbLM - Pogledaj prvi komentar
+
+
+tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys /

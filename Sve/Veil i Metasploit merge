@@ -1,0 +1,3 @@
+/var/lib/veil/output/compiled/
+
+load msgrpc ServerHost=192.168.0.13 Pass=abc123
