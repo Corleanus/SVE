@@ -1,0 +1,1 @@
+powershell -command "Start-Process Instalation2.bat -Verb runas"
